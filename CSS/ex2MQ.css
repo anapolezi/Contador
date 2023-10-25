@@ -1,0 +1,94 @@
+
+ @import url('https://fonts.cdnfonts.com/css/more-sugar');
+               
+#title{
+	font-family: 'More Sugar', sans-serif;
+	color: rgb(85,55,45);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.qtde{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+button{
+	background-color:rgb(160,114,78);
+	color: beige;
+	font-size: 20px;
+	width: 50px;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+}
+
+#number{
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(85,55,45);
+}
+
+/*----------Media Query------------------*/
+@media (min-width:576px) { /*se o tamanho maximo for esse...*/
+	body{
+		background-color: blanchedalmond;
+	}	
+	.container{
+		width: 100vw;
+	}
+	#title{
+		font-size: 30px;
+	}
+	img{
+		width: 300px;
+	}
+}
+@media (min-width:768px) { /*se o tamanho maximo for esse...*/
+	.container{
+		width: 100vw;
+	}
+	#title{
+		font-size: 32px;
+	}
+	img{
+		width: 350px;
+	}
+}
+@media (min-width:992px) { /*se o tamanho maximo for esse...*/
+	.container{
+		width: 100vw;
+	}
+	#title{
+		font-size: 34px;
+	}
+	img{
+		width: 400px;
+	}
+}
+@media (min-width:1200px) { /*se o tamanho maximo for esse...*/
+	.container{
+		width: 100vw;
+	}
+	#title{
+		font-size: 36px;
+	}
+	img{
+		width: 450px;
+	}
+}
+@media (min-width:1400px) { /*se o tamanho maximo for esse...*/
+	.container{
+		width: 100vw;
+	}
+	#title{
+		font-size: 38px;
+	}
+	img{
+		width: 500px;
+	}
+}
